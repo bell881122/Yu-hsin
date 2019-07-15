@@ -39,7 +39,7 @@
   </nav>
 
   <div class="wrap">
-    <section class="top-banner">
+    <div class="top-banner">
       <div class="mb-4">
         <div class="paper position-relative">
           <div class="border-0 w-100 h-100 d-flex justify-content-center align-items-center">
@@ -48,7 +48,7 @@
           <div class="ripple position-absolute"></div>
         </div>
       </div>
-    </section>
+    </div>
 
     <section class="container">
       <div class="introduce shadow-sm">
@@ -71,20 +71,16 @@
       </div>
     </section>
 
-    <section class="container" id="events">
-      <div class="tab d-flex justify-content-center align-content-start flex-wrap ml-auto mr-auto" id="list-tab"
-        role="tablist">
-        <a href="#" class="text-color-1 active" id="all">all</a>
-        <a href="#" class="text-color-3" id="frontEnd">Front-End</a>
-        <a href="#" class="text-color-5" id="uxui">UI/UX</a>
-        <a href="#" class="text-color-6" id="webDesign">Web Design</a>
-        <a href="#" class="text-color-2" id="react">React</a>
-        <a href="#" class="text-color-4" id="apollo">Apollo</a>
-      </div>
-
-    </section>
 
     <section class="bg-white section-rotate" id="work-content">
+      <div class="container mb-4" id="events">
+        <div class="tab d-flex justify-content-center align-content-start flex-wrap ml-auto mr-auto" id="list-tab"
+          role="tablist">
+          <a href="#" class="text-color-1 active" id="all">all</a>
+          <a href="#" class="text-color-3" id="frontEnd">Front-End</a>
+          <a href="#" class="text-color-6" id="webDesign">Web Design</a>
+        </div>
+      </div>
       <div class="container section-rotate-fixed pb-5">
         <h2 class="text-center h2-font">Works</h2>
         <div class="row">
@@ -95,7 +91,7 @@
                   <img class="card-img-top" src="img/logo-work-1.png" alt="...">
                 </div>
                 <div class="card-footer bg-transparent border-0">
-                  <p class="h6">Woek-1</p>
+                  <p class="h6">Work-1</p>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, maxime!</p>
                 </div>
               </a>
@@ -107,7 +103,7 @@
                 <img class="card-img-top" src="img/logo-work-1.png" alt="...">
               </div>
               <div class="card-footer bg-transparent border-0">
-                <p class="h6">Woek-1</p>
+                <p class="h6">Work-1</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, maxime!</p>
               </div>
             </div>
@@ -118,7 +114,7 @@
                 <img class="card-img-top" src="img/logo-work-1.png" alt="...">
               </div>
               <div class="card-footer bg-transparent border-0">
-                <p class="h6">Woek-1</p>
+                <p class="h6">Work-1</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, maxime!</p>
               </div>
             </div>
@@ -135,74 +131,45 @@
             </div>
             </a>
           </div>
+          <div class="col-lg-6 mb-5 frontEnd">
+            <div class="card costum-shadow hover-animated scale">
+              <a class="text-dark text-decoration-none light-box" href="file/201906 建立通用開發模式，一個打十個！ （証頡）.pdf"
+                data-toggle="modal" data-target=".bd-example-modal-xl">
+                <div class="card-overlay text-white position-relative">
+                  <img src="img/event-201906 建立通用開發模式，一個打十個！ （証頡）.jpg" class="card-img" alt="event201903">
+                  <div class="card-img-overlay bg-gradient-dark hover-show">
+                    <small class="card-text hover-show-text">講者／sorosora 王証頡</small>
+                  </div>
+                </div>
+              </a>
+              <div class="card-body">
+                <p class="card-title sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1">Work Title
+                </p>
+                <small class="card-text d-block">
+                  <a href="https://f2e.kktix.cc/events/meetup201906" target="_blank">
+                    Work Text
+                  </a>
+                </small>
+                <div class="d-flex clickdown">
+                  <button class="btn btn-outline-secondary py-0 px-1 ml-auto">more</button>
+                </div>
+              </div>
+              <div class="card-footer clickdown-menu bg-info text-white w-100">
+                <h5 class=" h6">簡介：</h5>
+                <p class="font-weight-light">
+                  簡介內容
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="container">
       <div class="row my-5 events-content" id="event-content">
-        <div class="col-lg-6 mb-5 frontEnd">
-          <div class="card costum-shadow hover-animated scale">
-            <a class="text-dark text-decoration-none light-box" href="file/201906 建立通用開發模式，一個打十個！ （証頡）.pdf"
-              data-toggle="modal" data-target=".bd-example-modal-xl">
-              <div class="card-overlay text-white position-relative">
-                <img src="img/event-201906 建立通用開發模式，一個打十個！ （証頡）.jpg" class="card-img" alt="event201903">
-                <div class="card-img-overlay bg-gradient-dark hover-show">
-                  <small class="card-text hover-show-text">講者／sorosora 王証頡</small>
-                </div>
-              </div>
-            </a>
-            <div class="card-body">
-              <p class="card-title h6">建立通用開發模式，一個打十個！</p>
-              <small class="card-text d-block">
-                <a href="https://f2e.kktix.cc/events/meetup201906" target="_blank">
-                  2019/06/25 六月號
-                </a>
-              </small>
-              <div class="d-flex clickdown">
-                <button class="btn btn-outline-secondary py-0 px-1 ml-auto">more</button>
-              </div>
-            </div>
-            <div class="card-footer clickdown-menu bg-info text-white w-100">
-              <h5 class=" h6">講題簡介：</h5>
-              <p class="font-weight-light">
-                一次又一次接案經驗裡，面對動態網站、靜態網站與無障礙網站等，各式各樣的專案需求，在不使用套版網站的前提下，要如何快速切版、建立通用的開發模式與設計共用模組，並且將每一次開發精華融合新技術，立即運用於下一個專案中。本次分享使用Next.js搭配styled-components作為例子，希望激發大家能建立開發模式於自己習慣的框架上，或是擁抱這個組合。
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 mb-5 frontEnd">
-          <div class="card costum-shadow hover-animated scale">
-            <a class="text-dark text-decoration-none light-box" href="file/201906 前端開發心法（Kevin）.pdf" data-toggle="modal"
-              data-target=".bd-example-modal-xl">
-              <div class="card-overlay text-white">
-                <img src="img/event-201906 前端開發心法（Kevin）.jpg" class="card-img" alt="event201903">
-                <div class="card-img-overlay bg-gradient-dark hover-show">
-                  <small class="card-text hover-show-text">講者／KK 徐愷</small>
-                </div>
-              </div>
-            </a>
-            <div class="card-body">
-              <p class="card-title h6">前端開發心法</p>
-              <small class="card-text d-block">
-                <a href="https://f2e.kktix.cc/events/meetup201906" target="_blank">
-                  2019/06/25 六月號
-                </a>
-              </small>
-              <div class="d-flex clickdown">
-                <button class="btn btn-outline-secondary py-0 px-1 ml-auto">more</button>
-              </div>
-            </div>
-            <div class="card-footer clickdown-menu bg-info text-white w-100">
-              <h5 class=" h6">講題簡介：</h5>
-              <p class="font-weight-light">
-                從專案的開始到結束，介紹每個步驟在開發上需要注意與思考的面向，前端開發並不只需要埋頭寫程式或是追求潮流，從一開始的技術線選擇到後端對接，商業邏輯的釐清到效能優化，套件採用到穩定度與可維護性等等，希望透過此次分享讓大家一起全面性的思考整個前端開發。
-                </br>
-                PS. 此分享雖以 React 為案例，包括但不限於此前端框架
-              </p>
-            </div>
-          </div>
-        </div>
+
+
 
       </div>
     </section>
@@ -214,28 +181,33 @@
   <section class="about-us bg-dark text-white" id="aboutUs">
     <div class="container py-5">
       <div class="row">
-        <div class="col-md-6 mb-4">
-          <h5 class="mb-4">About Us</h5>
-          <h6 class="mb-2">Front-End Developers Taiwan</h6>
-          <p class="mb-1 text-justify font-weight-light">希望前端能夠成為台灣一個成熟的產業！</br>
-            主要討論：前端網頁技術，使用者介面探討，網頁設計。
-            HTML，CSS，JavaScript等語言技術討論，瀏覽器開發工具。iOS, Android 等 Mobile App 使用者介面相關議題討論。
-            也歡迎前端經驗分享，以及企業徵才。</p>
-          <p>We dedicate ourselves in promoting front-end technology in Taiwan. Focusing on web technology, user
-            interface, and web
-            design. Programming language discussion - HTML, CSS and JavaScript, or browser development tools. View
-            source discussion
-            of mobile app such as iOS, Android . We also welcome you to share front-end experience and recruiting
-            information with
-            us.</p>
-        </div>
-        <div class="col-md-6 mb-4">
-          <h5 class="mb-4">Contact us</h5>
-          <form>
-            <div class="form-group">
-              <label for="input-name">姓名</label>
-              <input type="text" class="form-control" id="input-name" placeholder="您的大名" required>
+        <div class="col-md-5 mb-4">
+          <div class="row">
+            <div class="col-12">
+              <h5 class="mb-3">About</h5>
+              <!-- <h6 class="mb-2">Front-End Developers Taiwan</h6> -->
+              <p class="mb-1 text-justify font-weight-light">想成為前端工程師的小小美編。</p>
             </div>
+            <div class="col-12 my-5">
+              <h5 class="mb-3">Follow me</h5>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a class="text-white h1" href="#" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item mr-3">
+                  <a class="text-white h1" href="#" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7 mb-4">
+          <h5 class="mb-4">Contact me</h5>
+          <form>
             <div class="form-row">
               <div class="col-sm-6">
                 <div class="form-group">
@@ -258,29 +230,10 @@
               <label for="input_comments">意見</label>
               <textarea class="form-control" id="input_comments" rows="3"></textarea>
             </div>
-            <button class="btn btn-secondary d-flex ml-auto" type="submit">Submit form</button>
+            <button class="btn btn-outline-white bg-white d-flex ml-auto" type="submit">Submit form</button>
           </form>
         </div>
-        <div class="col-md-6">
-          <h5 class="mb-3">Follow us</h5>
-          <ul class="list-inline">
-            <li class="mb-1">
-              <a class="text-white" href="http://www.fed.tw/" target="_blank">
-                Front-End Developers 官網
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a href="https://www.facebook.com/groups/f2etw" target="_blank">
-                <img class="h-100" src="img/facebook-square-brands.png" alt="">
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://f2e.kktix.cc/" target="_blank">
-                <img class="h-100" src="img/logo_ms_w-161f23b7062367d346435bf2d77663c6.png" alt="" style="height: 18px">
-              </a>
-            </li>
-          </ul>
-        </div>
+
       </div>
 
     </div>
@@ -299,7 +252,6 @@
           </p>
         </div>
       </div>
-
     </div>
 
   </footer>
