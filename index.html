@@ -26,10 +26,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link scrollTop" href="#news">News</a>
+          <a class="nav-link scrollTop" href="#introduce">Introduce</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link scrollTop" href="#events">Events</a>
+          <a class="nav-link scrollTop" href="#works">Works</a>
         </li>
         <li class="nav-item">
           <a class="nav-link scrollTop" href="#aboutUs">About us</a>
@@ -37,21 +37,21 @@
       </ul>
     </div>
   </nav>
-
-  <div class="wrap">
-    <div class="top-banner">
-      <div class="mb-4">
-        <div class="paper position-relative">
-          <div class="border-0 w-100 h-100 d-flex justify-content-center align-items-center">
-            <h5 class="">Grow like ripples.</h5>
-          </div>
-          <div class="ripple position-absolute"></div>
+  <div class="top-banner">
+    <div class="mb-4">
+      <div class="paper position-relative">
+        <div class="border-0 w-100 h-100 d-flex justify-content-center align-items-center">
+          <h5 class="text-white">Grow like ripples.</h5>
         </div>
+        <div class="ripple position-absolute"></div>
       </div>
     </div>
+  </div>
+  <!-- <div class="test-square"></div> -->
 
-    <section class="container">
-      <div class="introduce shadow-sm">
+  <div class="wrap">
+    <div class="container">
+      <div class="introduce shadow-sm mt-4" id="introduce">
         <div class="card-body">
           <h5 class="card-title h3">Introduce</h5>
           <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -69,21 +69,20 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
 
-    <section class="bg-white section-rotate" id="work-content">
-      <div class="container mb-4" id="events">
-        <div class="tab d-flex justify-content-center align-content-start flex-wrap ml-auto mr-auto" id="list-tab"
-          role="tablist">
-          <a href="#" class="text-color-1 active" id="all">all</a>
-          <a href="#" class="text-color-3" id="frontEnd">Front-End</a>
-          <a href="#" class="text-color-6" id="webDesign">Web Design</a>
+    <section class="bg-white section-rotate" id="works">
+      <div class="container mb-2 works-tab d-flex  align-items-center">
+        <h2 class="h2-font">Works</h2>
+        <div class="tab ml-auto" id="list-tab" role="tablist">
+          <a href="#" class="border-primary active" id="all">all</a>
+          <a href="#" class="" id="frontEnd">Front-End</a>
+          <a href="#" class="" id="webDesign">Web Design</a>
         </div>
       </div>
       <div class="container section-rotate-fixed pb-5">
-        <h2 class="text-center h2-font">Works</h2>
-        <div class="row">
+        <div class="row" id="work-content">
           <div class="col-lg-4 col-sm-6 mb-4 animated frontEnd">
             <div class="card c-shadow scale border-0">
               <a href="#">
@@ -97,7 +96,7 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 mb-4 animated">
+          <div class="col-lg-4 col-sm-6 mb-4 animated webDesign">
             <div class="card c-shadow scale border-0">
               <div style="background-color:#fdb4e3">
                 <img class="card-img-top" src="img/logo-work-1.png" alt="...">
@@ -136,7 +135,7 @@
               <a class="text-dark text-decoration-none light-box" href="file/201906 建立通用開發模式，一個打十個！ （証頡）.pdf"
                 data-toggle="modal" data-target=".bd-example-modal-xl">
                 <div class="card-overlay text-white position-relative">
-                  <img src="img/event-201906 建立通用開發模式，一個打十個！ （証頡）.jpg" class="card-img" alt="event201903">
+                  <img src="img/work-201906 建立通用開發模式，一個打十個！ （証頡）.jpg" class="card-img" alt="work201903">
                   <div class="card-img-overlay bg-gradient-dark hover-show">
                     <small class="card-text hover-show-text">講者／sorosora 王証頡</small>
                   </div>
@@ -146,7 +145,7 @@
                 <p class="card-title sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1">Work Title
                 </p>
                 <small class="card-text d-block">
-                  <a href="https://f2e.kktix.cc/events/meetup201906" target="_blank">
+                  <a href="https://f2e.kktix.cc/works/meetup201906" target="_blank">
                     Work Text
                   </a>
                 </small>
@@ -167,7 +166,7 @@
     </section>
 
     <section class="container">
-      <div class="row my-5 events-content" id="event-content">
+      <div class="row my-5 works-content" id="work-content">
 
 
 
@@ -181,31 +180,31 @@
   <section class="about-us bg-dark text-white" id="aboutUs">
     <div class="container py-5">
       <div class="row">
-        <div class="col-md-5 mb-4">
-          <div class="row">
-            <div class="col-12">
-              <h5 class="mb-3">About</h5>
-              <!-- <h6 class="mb-2">Front-End Developers Taiwan</h6> -->
-              <p class="mb-1 text-justify font-weight-light">想成為前端工程師的小小美編。</p>
-            </div>
-            <div class="col-12 my-5">
-              <h5 class="mb-3">Follow me</h5>
-              <ul class="list-inline">
-                <li class="list-inline-item">
-                  <a class="text-white h1" href="#" target="_blank">
-                    <i class="fab fa-facebook-square"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item mr-3">
-                  <a class="text-white h1" href="#" target="_blank">
-                    <i class="fab fa-twitter-square"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <div class="col-sm-4">
+            <h5 class="mb-3">About</h5>
+            <!-- <h6 class="mb-2">Front-End Developers Taiwan</h6> -->
+            <p class="mb-1 text-justify font-weight-light">想成為前端工程師的小小美編。</p>
           </div>
-        </div>
-        <div class="col-md-7 mb-4">
+          <div class="col-sm-4">
+            <h5 class="mb-3">Follow me</h5>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a class="text-white h1" href="#" target="_blank">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a class="text-white h1" href="#" target="_blank">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <h5 class="mb-3">Twittering</h5>
+          </div>
+
+        <!--         <div class="col-md-7 mb-4">
           <h5 class="mb-4">Contact me</h5>
           <form>
             <div class="form-row">
@@ -232,7 +231,7 @@
             </div>
             <button class="btn btn-outline-white bg-white d-flex ml-auto" type="submit">Submit form</button>
           </form>
-        </div>
+        </div> -->
 
       </div>
 

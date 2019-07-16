@@ -89,7 +89,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -341,25 +341,25 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.2; }
 
 h1, .h1 {
-  font-size: 1.25rem; }
+  font-size: 1.75rem; }
 
 h2, .h2 {
-  font-size: 1rem; }
+  font-size: 1.4rem; }
 
 h3, .h3 {
-  font-size: 0.875rem; }
+  font-size: 1.225rem; }
 
 h4, .h4 {
-  font-size: 0.75rem; }
+  font-size: 1.05rem; }
 
 h5, .h5 {
-  font-size: 0.625rem; }
+  font-size: 0.875rem; }
 
 h6, .h6 {
-  font-size: 0.5rem; }
+  font-size: 0.7rem; }
 
 .lead {
-  font-size: 0.625rem;
+  font-size: 0.875rem;
   font-weight: 300; }
 
 .display-1 {
@@ -417,7 +417,7 @@ mark,
 
 .blockquote {
   margin-bottom: 1rem;
-  font-size: 0.625rem; }
+  font-size: 0.875rem; }
 
 .blockquote-footer {
   display: block;
@@ -1498,7 +1498,7 @@ pre {
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
   padding: 0.375rem 0.75rem;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -1548,13 +1548,13 @@ select.form-control:focus::-ms-value {
 .col-form-label-lg {
   padding-top: calc(0.5rem + 1px);
   padding-bottom: calc(0.5rem + 1px);
-  font-size: 0.625rem;
+  font-size: 0.875rem;
   line-height: 1.5; }
 
 .col-form-label-sm {
   padding-top: calc(0.25rem + 1px);
   padding-bottom: calc(0.25rem + 1px);
-  font-size: 0.4375rem;
+  font-size: 0.6125rem;
   line-height: 1.5; }
 
 .form-control-plaintext {
@@ -1575,14 +1575,14 @@ select.form-control:focus::-ms-value {
 .form-control-sm {
   height: calc(1.5em + 0.5rem + 2px);
   padding: 0.25rem 0.5rem;
-  font-size: 0.4375rem;
+  font-size: 0.6125rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
 
 .form-control-lg {
   height: calc(1.5em + 1rem + 2px);
   padding: 0.5rem 1rem;
-  font-size: 0.625rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
@@ -1654,7 +1654,7 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: .1rem;
-  font-size: 0.4375rem;
+  font-size: 0.6125rem;
   line-height: 1.5;
   color: #fff;
   background-color: rgba(40, 167, 69, 0.9);
@@ -1751,7 +1751,7 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: .1rem;
-  font-size: 0.4375rem;
+  font-size: 0.6125rem;
   line-height: 1.5;
   color: #fff;
   background-color: rgba(220, 53, 69, 0.9);
@@ -1907,7 +1907,7 @@ textarea.form-control {
   background-color: transparent;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
@@ -2339,13 +2339,13 @@ fieldset:disabled a.btn {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
-  font-size: 0.625rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 0.4375rem;
+  font-size: 0.6125rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
 
@@ -2410,7 +2410,7 @@ input[type="button"].btn-block {
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   color: #212529;
   text-align: left;
   list-style: none;
@@ -2573,7 +2573,7 @@ input[type="button"].btn-block {
   display: block;
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
-  font-size: 0.4375rem;
+  font-size: 0.6125rem;
   color: #6c757d;
   white-space: nowrap; }
 
@@ -2769,7 +2769,7 @@ input[type="button"].btn-block {
       align-items: center;
   padding: 0.375rem 0.75rem;
   margin-bottom: 0;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -2793,7 +2793,7 @@ input[type="button"].btn-block {
 .input-group-lg > .input-group-prepend > .btn,
 .input-group-lg > .input-group-append > .btn {
   padding: 0.5rem 1rem;
-  font-size: 0.625rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
@@ -2808,7 +2808,7 @@ input[type="button"].btn-block {
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 0.4375rem;
+  font-size: 0.6125rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
 
@@ -2837,7 +2837,7 @@ input[type="button"].btn-block {
 .custom-control {
   position: relative;
   display: block;
-  min-height: 0.75rem;
+  min-height: 1.05rem;
   padding-left: 1.5rem; }
 
 .custom-control-inline {
@@ -2872,7 +2872,7 @@ input[type="button"].btn-block {
   vertical-align: top; }
   .custom-control-label::before {
     position: absolute;
-    top: -0.125rem;
+    top: 0.025rem;
     left: -1.5rem;
     display: block;
     width: 1rem;
@@ -2883,7 +2883,7 @@ input[type="button"].btn-block {
     border: #adb5bd solid 1px; }
   .custom-control-label::after {
     position: absolute;
-    top: -0.125rem;
+    top: 0.025rem;
     left: -1.5rem;
     display: block;
     width: 1rem;
@@ -2927,7 +2927,7 @@ input[type="button"].btn-block {
     pointer-events: all;
     border-radius: 0.5rem; }
   .custom-switch .custom-control-label::after {
-    top: calc(-0.125rem + 2px);
+    top: calc(0.025rem + 2px);
     left: calc(-2.25rem + 2px);
     width: calc(1rem - 4px);
     height: calc(1rem - 4px);
@@ -2949,7 +2949,7 @@ input[type="button"].btn-block {
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -2983,14 +2983,14 @@ input[type="button"].btn-block {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   padding-left: 0.5rem;
-  font-size: 0.4375rem; }
+  font-size: 0.6125rem; }
 
 .custom-select-lg {
   height: calc(1.5em + 1rem + 2px);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
-  font-size: 0.625rem; }
+  font-size: 0.875rem; }
 
 .custom-file {
   position: relative;
@@ -3258,7 +3258,7 @@ input[type="button"].btn-block {
   padding-top: 0;
   padding-bottom: 0;
   margin-right: 1rem;
-  font-size: 0.625rem;
+  font-size: 0.875rem;
   line-height: inherit;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
@@ -3294,7 +3294,7 @@ input[type="button"].btn-block {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 0.625rem;
+  font-size: 0.875rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
@@ -3793,7 +3793,7 @@ input[type="button"].btn-block {
 
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
-  font-size: 0.625rem;
+  font-size: 0.875rem;
   line-height: 1.5; }
 
 .pagination-lg .page-item:first-child .page-link {
@@ -3806,7 +3806,7 @@ input[type="button"].btn-block {
 
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
-  font-size: 0.4375rem;
+  font-size: 0.6125rem;
   line-height: 1.5; }
 
 .pagination-sm .page-item:first-child .page-link {
@@ -3963,7 +3963,7 @@ input[type="button"].btn-block {
   font-weight: 700; }
 
 .alert-dismissible {
-  padding-right: 3.25rem; }
+  padding-right: 3.55rem; }
   .alert-dismissible .close {
     position: absolute;
     top: 0;
@@ -4063,7 +4063,7 @@ input[type="button"].btn-block {
   display: flex;
   height: 1rem;
   overflow: hidden;
-  font-size: 0.375rem;
+  font-size: 0.525rem;
   background-color: #e9ecef;
   border-radius: 0.25rem; }
 
@@ -4347,7 +4347,7 @@ input[type="button"].btn-block {
 
 .close {
   float: right;
-  font-size: 0.75rem;
+  font-size: 1.05rem;
   font-weight: 700;
   line-height: 1;
   color: #000;
@@ -4592,7 +4592,7 @@ a.close.disabled {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.4375rem;
+  font-size: 0.6125rem;
   word-wrap: break-word;
   opacity: 0; }
   .tooltip.show {
@@ -4677,7 +4677,7 @@ a.close.disabled {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.4375rem;
+  font-size: 0.6125rem;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: padding-box;
@@ -4766,7 +4766,7 @@ a.close.disabled {
 .popover-header {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-top-left-radius: calc(0.3rem - 1px);
@@ -6016,7 +6016,7 @@ button.bg-deep:focus {
   white-space: normal; }
 
 .shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; }
+  box-shadow: 0 0.25rem 0.75rem 0.05rem rgba(0, 0, 0, 0.075) !important; }
 
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
@@ -7682,21 +7682,12 @@ a.text-deep:hover, a.text-deep:focus {
 html {
   background-color: #eeedef; }
 
-/* .introduce {
-    position: absolute;
-
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-}
- */
 .paper {
-  top: 0;
+  height: 580px;
+  top: 42px;
   left: 0;
   right: 0;
   background-color: #fffeff;
-  height: 500px;
   overflow: hidden;
   position: relative;
   margin-bottom: 16px;
@@ -7719,8 +7710,8 @@ html {
     margin-top: 32px;
 } */
 .ripple {
-  opacity: 0.65;
-  background-color: rgba(94, 40, 105, 0.2);
+  opacity: 0.35;
+  background: radial-gradient(#5e2869, #fff);
   border-radius: 100%;
   height: 100px;
   width: 100px;
@@ -7813,10 +7804,10 @@ body {
   letter-spacing: .5px; }
 
 section {
-  margin-top: 80px; }
+  margin-top: 100px; }
 
 .top-banner .paper {
-  background: rgba(94, 40, 105, 0.05); }
+  background: rgba(94, 40, 105, 0.95); }
 
 .tab a {
   padding: 7px 15px; }
@@ -7866,5 +7857,29 @@ footer {
 
 .card-footer a {
   color: #a3f3ff; }
+
+/* 
+.test-square {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient($white, $primary);
+    
+    background: -webkit-gradient(linear, left top, left bottom, from(#00644b), to(#009872));
+    background: -webkit-linear-gradient(top, #00644b, #009872);
+    background: -o-linear-gradient(top, #00644b, #009872);
+    background: linear-gradient(to bottom, #00644b, #009872);
+    background: radial-gradient($primary .15, $primary .75);
+
+} */
+.works-tab a {
+  border: 0.65px solid #5e2869;
+  padding: 2px 7px;
+  margin: 0 0 0 5px; }
+
+.works-tab a:hover,
+.works-tab a.active {
+  background: #5e2869;
+  color: #fff;
+  text-decoration: none; }
 
 /*# sourceMappingURL=all.css.map */

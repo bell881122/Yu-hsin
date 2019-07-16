@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     $(".paper").mouseover(function (e) {
         var ripple = $(this).find(".ripple");
         ripple.removeClass("animate");
@@ -9,6 +10,7 @@ $(document).ready(function () {
             left: x
         }).addClass("animate");
     });
+
     $(".paper").mousedown(function (e) {
         var ripple = $(this).find(".ripple");
         ripple.removeClass("animate");

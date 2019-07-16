@@ -35,16 +35,18 @@ $(document).ready(function () {
         e.preventDefault();
         var tab = this.id;
         var tabClass = '.' + tab;
-        // alert(tabClass);
-        $("#event-content, #work-content").children().hide();
-        $("#event-content, #work-content").find(tabClass).fadeIn("slow");
+        console.log(tabClass);
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+        $("#work-content").children().hide();
+        $("#work-content").find(tabClass).fadeIn("slow");
     });
     $('#all').click(function (e) {
         e.preventDefault();
         var tab = this.id;
         var tabClass = '.' + tab + '';
-        $("#event-content").children().hide();
-        $("#event-content").children().fadeIn("slow");
+        $("#work-content").children().hide();
+        $("#work-content").children().fadeIn("slow");
     });
 
     //menu click scroll
@@ -58,7 +60,7 @@ $(document).ready(function () {
     $(window).scroll(function () {
         var scrollPos = $(window).scrollTop();
         var windowHeight = $(window).height();
-        console.log(scrollPos, windowHeight);
+        // console.log(scrollPos, windowHeight);
 
         $('.scrollTop').each(function () {
             var target = $(this).attr('href');
