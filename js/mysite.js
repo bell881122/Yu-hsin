@@ -31,7 +31,7 @@ $(document).ready(function () {
         // $(".hover-show-text").attr("style", "transform: translateY(0)");
     });
 
-    $('#frontEnd, #uxui, #webDesign, #react, #apollo').click(function (e) {
+    $('#event, #demo, #layout').click(function (e) {
         e.preventDefault();
         var tab = this.id;
         var tabClass = '.' + tab;
@@ -54,7 +54,7 @@ $(document).ready(function () {
         e.preventDefault();
         var target = $(this).attr('href');
         var targetPos = $(target).offset().top;
-        $('html, body').animate({ scrollTop: targetPos-135 }, 800);
+        $('html, body').animate({ scrollTop: targetPos - 135 }, 800);
     });
 
     $(window).scroll(function () {
@@ -76,5 +76,41 @@ $(document).ready(function () {
 
 
     });
+
+
+    $('.skills-title').mouseover(function () {
+        $(this).addClass('bounce');
+        $(this).parent().siblings().find('.skills-text').removeClass('pulse');
+        // $('.skills-text').removeClass('flash');
+        
+    });
+    $('.skills-title').mouseleave(function () {
+        $(this).removeClass('bounce');
+        $(this).parent().siblings().find('.skills-text').addClass('pulse');
+        // $('.skills-text').addClass('flash');
+        // $('.skills-text').addClass('rubberBand');
+    });
+    // 動畫結束後執行此事件
+    $('.skills-title').mouseout(function () {
+        // $('.skills-text').delay(3000).removeClass('rubberBand');
+    });
+
+//Modal
+    $(".click-show-modal").click(function (e) {
+        e.preventDefault;
+        // $('.modal-img').html(title);
+        var title = $(this).find('.hover-show-title').html();
+        $('.modal-title').html(title);
+        var text = $(this).find('.hover-show-text').html();
+        $('.modal-text').html(text);
+        // var img = $(this).find('.click-show-img').attr('src');
+        var img = 'img/'+ $(this).find('.click-show-img').attr('alt') + '.jpg';
+        $('.modal-img').attr('src', img);
+        console.log(img);
+        var link = $(this).attr('href');
+        $('.modal-button').attr('href', link);
+    });
+
+
 
 });
