@@ -80,16 +80,16 @@ $(document).ready(function () {
 
     $('.skills-title').mouseover(function () {
         $(this).addClass('bounce');
-        $(this).parent().siblings().find('.skills-text').removeClass('flash');
+        $(this).parent().siblings().find('.skills-text').removeClass('pulse');
         // $(this).parent().siblings().find('.skills-text').removeClass('pulse');
-        // $('.skills-text').removeClass('flash');
+        // $('.skills-text').removeClass('jello');
         
     });
     $('.skills-title').mouseleave(function () {
         $(this).removeClass('bounce');
-        $(this).parent().siblings().find('.skills-text').addClass('flash');
+        $(this).parent().siblings().find('.skills-text').addClass('pulse');
         // $(this).parent().siblings().find('.skills-text').addClass('pulse');
-        // $('.skills-text').addClass('flash');
+        // $('.skills-text').addClass('jello');
         // $('.skills-text').addClass('rubberBand');
     });
     // 動畫結束後執行此事件
