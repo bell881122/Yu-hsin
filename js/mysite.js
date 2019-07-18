@@ -31,7 +31,7 @@ $(document).ready(function () {
         // $(".hover-show-text").attr("style", "transform: translateY(0)");
     });
 
-    $('#event, #demo, #layout').click(function (e) {
+    $('#event, #demo, #layout,#all').click(function (e) {
         e.preventDefault();
         var tab = this.id;
         var tabClass = '.' + tab;
